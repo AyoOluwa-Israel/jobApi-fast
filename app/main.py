@@ -23,9 +23,9 @@ async def app_init():
     document_models= []
   )
 
-# @app.get('/')
-# async def hello():
-#   return {"message": "Hello"}
+@app.get('/')
+async def hello():
+  return {"message": "Hello"}
 
 
 
